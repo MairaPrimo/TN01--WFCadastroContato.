@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             menuStrip1 = new MenuStrip();
             mnsCadastrar = new ToolStripMenuItem();
             mnsSobre = new ToolStripMenuItem();
@@ -66,9 +67,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(0, 27);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-65, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(457, 286);
+            pictureBox1.Size = new Size(549, 368);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
