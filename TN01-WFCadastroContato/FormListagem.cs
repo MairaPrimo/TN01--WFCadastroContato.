@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TN01__WFCadastroContato
+namespace TN01_WFCadastroContato
 {
-    public partial class Form2: Form
+    public partial class FormListagem : Form
     {
-        public Form2()
+        public FormListagem()
         {
             InitializeComponent();
+        }
+
+        private void FormListagem_Load(object sender, EventArgs e)
+        {
+            dgvListaContatos.DataSource = Contato.ListaContatos;
         }
     }
 }

@@ -1,4 +1,4 @@
-namespace TN01__WFCadastroContato
+namespace TN01_WFCadastroContato
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace TN01__WFCadastroContato
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new C());
+            Application.Run(new FormPrincipal());
         }
     }
 }
